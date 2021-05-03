@@ -1,4 +1,5 @@
 # Anime Scrapper
+[![Build Status](https://travis-ci.com/souravprogrammer/animescrapper.svg?branch=master)](https://travis-ci.com/souravprogrammer/animescrapper)
 
 Anime Scraper is a library that provides unofficial api to scrape anime streaming platform like <a href="http://www.anime1.com">anime1</a> 
 
@@ -19,7 +20,8 @@ This project is created fo the purpose of using it into <a href=""> Doge San.</a
        
        
  ### Search Anime List
-    List<AnimeList> searchedlist =  anime.getAnime("<name of your anime>"); // returns all AnimeList object that match your search. 
+    List<AnimeList> searchedlist =  anime.getAnime("<name of your anime>"); // returns all AnimeList
+    object that match your search. 
 
  ### Anime Card
  ###### anime card is an object that holdes all the info about anime like episodes , title, description , image url.
